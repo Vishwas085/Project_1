@@ -1,0 +1,11 @@
+pipeline
+{
+agent dev
+stages
+  {
+  stage(git_checckout)
+    steps
+       node (CI_Manage)
+       }
+       
+}
