@@ -8,4 +8,8 @@ stages
        node (CI_Manage)
        }
        
-}
+
+  stage(maven_build)
+    steps
+	   "maven_build.int/"
+ }
