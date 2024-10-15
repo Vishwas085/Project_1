@@ -13,3 +13,5 @@ stages
     steps
 	   "maven_build.int/"
  }
+ 
+  stage(sonarqube_scan)
